@@ -1,0 +1,362 @@
+[
+  {
+    "id": "maezy-02",
+    "name": "Evangeline Danglers",
+    "price": 3200,
+    "category": "Earrings",
+    "description": "Chandelier earrings featuring aqua-green and clear 5A CZ stones with floral clusters and pavé detailing, set in rhodium-plated brass.",
+    "image": "assets/product-02.jpg",
+    "size": null,
+    "page": 2
+  },
+  {
+    "id": "maezy-03",
+    "name": "Celestine Danglers — Green",
+    "price": 3000,
+    "category": "Earrings",
+    "description": "Statement earrings featuring diamonds, purple and ruby-pink 5A CZ stones with clear crystal detailing and cascading drops, set in rhodium-plated brass.",
+    "image": "assets/product-03.jpg",
+    "size": null,
+    "page": 3
+  },
+  {
+    "id": "maezy-04",
+    "name": "Celestine Danglers — Purple",
+    "price": 3000,
+    "category": "Earrings",
+    "description": "Statement earrings featuring diamonds, purple and ruby-pink 5A CZ stones with clear crystal detailing and cascading drops, set in rhodium-plated brass.",
+    "image": "assets/product-04.jpg",
+    "size": null,
+    "page": 4
+  },
+  {
+    "id": "maezy-05",
+    "name": "Aureline Earrings",
+    "price": 2850,
+    "category": "Earrings",
+    "description": "Statement earrings featuring orange sapphire hydro gemstones, 5A CZ diamonds and pearl drops, set in brass with gold micron plating.",
+    "image": "assets/product-05.jpg",
+    "size": null,
+    "page": 5
+  },
+  {
+    "id": "maezy-06",
+    "name": "Violette Danglers",
+    "price": 2800,
+    "category": "Earrings",
+    "description": "Statement earrings featuring purple and ruby-toned 5A CZ stones with 5A CZ diamond detailing, set in rhodium- plated brass.",
+    "image": "assets/product-06.jpg",
+    "size": null,
+    "page": 6
+  },
+  {
+    "id": "maezy-07",
+    "name": "Lunelle Danglers",
+    "price": 2650,
+    "category": "Earrings",
+    "description": "Chandelier earrings featuring emerald-green and orange sapphire premium hydro crystals with pearl and mint drops, set in gold micron- plated brass.",
+    "image": "assets/product-07.jpg",
+    "size": null,
+    "page": 7
+  },
+  {
+    "id": "maezy-08",
+    "name": "Sylvara Danglers",
+    "price": 2800,
+    "category": "Earrings",
+    "description": "Statement earrings featuring emerald-green premium hydro crystals with CZ diamond detailing, set in rhodium- plated brass.",
+    "image": "assets/product-08.jpg",
+    "size": null,
+    "page": 8
+  },
+  {
+    "id": "maezy-09",
+    "name": "Fiora Earrings",
+    "price": 2500,
+    "category": "Earrings",
+    "description": "Floral drop earrings featuring premium ruby and emerald hydro stones, 5A CZ diamonds and pearl drops, set in gold micron-plated brass.",
+    "image": "assets/product-09.jpg",
+    "size": null,
+    "page": 9
+  },
+  {
+    "id": "maezy-10",
+    "name": "Ophelia Danglers",
+    "price": 2200,
+    "category": "Earrings",
+    "description": "Statement earrings featuring multicoloured premium hydro crystals with 5A CZ diamond detailing, set in gold micron- plated brass.",
+    "image": "assets/product-10.jpg",
+    "size": null,
+    "page": 10
+  },
+  {
+    "id": "maezy-11",
+    "name": "Solstice Earrings",
+    "price": 2700,
+    "category": "Earrings",
+    "description": "Nocturnal earrings featuring premium blue sapphire hydro stones, 5A CZ diamonds and pearl drops, set in rhodium- plated brass.",
+    "image": "assets/product-11.jpg",
+    "size": null,
+    "page": 11
+  },
+  {
+    "id": "maezy-12",
+    "name": "Astra Studs",
+    "price": 1950,
+    "category": "Earrings",
+    "description": "Ethereal studs featuring lavender 5A CZ stones with clear pavé detailing in a paisley-inspired design, set in rhodium-plated brass.",
+    "image": "assets/product-12.jpg",
+    "size": null,
+    "page": 12
+  },
+  {
+    "id": "maezy-13",
+    "name": "Elara Drops",
+    "price": 1800,
+    "category": "Earrings",
+    "description": "Elegant drop earrings featuring premium lavender hydro, clear CZ detailing and pearl drops, set in rhodium- plated brass.",
+    "image": "assets/product-13.jpg",
+    "size": null,
+    "page": 13
+  },
+  {
+    "id": "maezy-14",
+    "name": "Victoria Studs",
+    "price": 1800,
+    "category": "Earrings",
+    "description": "Statement studs featuring premium blue sapphire hydro stone with 5A CZ diamond detailing, set in rhodium- plated brass.",
+    "image": "assets/product-14.jpg",
+    "size": null,
+    "page": 14
+  },
+  {
+    "id": "maezy-15",
+    "name": "Emerelle Studs",
+    "price": 1600,
+    "category": "Earrings",
+    "description": "Enduring studs featuring premium emerald hydro stones with 5A CZ diamond detailing, set in rhodium-plated brass.",
+    "image": "assets/product-15.jpg",
+    "size": null,
+    "page": 15
+  },
+  {
+    "id": "maezy-16",
+    "name": "Rośea Earrings",
+    "price": 2100,
+    "category": "Earrings",
+    "description": "Ornate drop earrings featuring synthetic moissanites with a pink sapphire CZ teardrop, set in a brilliant rhodium finish.",
+    "image": "assets/product-16.jpg",
+    "size": null,
+    "page": 16
+  },
+  {
+    "id": "maezy-17",
+    "name": "Frost Dew Drops",
+    "price": 1500,
+    "category": "Earrings",
+    "description": "Crystal drop earrings featuring lavender premium hydro stone with lavender and clear 5A CZ detailing, set in rhodium-plated brass.",
+    "image": "assets/product-17.jpg",
+    "size": null,
+    "page": 17
+  },
+  {
+    "id": "maezy-18",
+    "name": "Gardenia Studs",
+    "price": 1900,
+    "category": "Earrings",
+    "description": "Floral studs featuring emerald and clear CZ diamonds, set in rhodium-plated brass.",
+    "image": "assets/product-18.jpg",
+    "size": null,
+    "page": 18
+  },
+  {
+    "id": "maezy-19",
+    "name": "Jardin Earrings",
+    "price": 2100,
+    "category": "Earrings",
+    "description": "Statement earrings featuring rich emerald-green and fuchsia hydro stones, accented with brilliant 5A CZ diamonds and finished in gold micron-plated brass.",
+    "image": "assets/product-19.jpg",
+    "size": null,
+    "page": 19
+  },
+  {
+    "id": "maezy-20",
+    "name": "Esmera Earcuffs",
+    "price": 3100,
+    "category": "Earrings",
+    "description": "Made with champagne topaz hydro stones and brilliant 5A CZ diamonds, finished in rhodium-plated brass.",
+    "image": "assets/product-20.jpg",
+    "size": null,
+    "page": 20
+  },
+  {
+    "id": "maezy-21",
+    "name": "Odette Earcuffs",
+    "price": 2500,
+    "category": "Earrings",
+    "description": "Vivid emerald hydro stones and brilliant 5A CZ diamonds in a sweeping, vine-like silhouette, finished in rhodium-plated brass.",
+    "image": "assets/product-21.jpg",
+    "size": null,
+    "page": 21
+  },
+  {
+    "id": "maezy-22",
+    "name": "Alexandria Set",
+    "price": 8900,
+    "category": "Necklace sets",
+    "description": "Necklace and earring set featuring premium ruby hydro stones with 5A CZ diamond detailing, set in rhodium- plated brass.",
+    "image": "assets/product-22.jpg",
+    "size": null,
+    "page": 22
+  },
+  {
+    "id": "maezy-23",
+    "name": "Empress Set",
+    "price": 5700,
+    "category": "Necklace sets",
+    "description": "Regal pearl set featuring premium blue sapphire hydro stones and brilliant 5A CZ diamonds. finished with pearl localites and gold micron-plated brass for a luminous finish.",
+    "image": "assets/product-23.jpg",
+    "size": null,
+    "page": 23
+  },
+  {
+    "id": "maezy-24",
+    "name": "Lilienne Set",
+    "price": 5500,
+    "category": "Necklace sets",
+    "description": "Choker necklace and earring set featuring premium lavender hydro stones with 5A CZ diamond detailing, set in rhodium-plated brass.",
+    "image": "assets/product-24.jpg",
+    "size": null,
+    "page": 24
+  },
+  {
+    "id": "maezy-25",
+    "name": "Palazzo Set",
+    "price": 4000,
+    "category": "Necklace sets",
+    "description": "Regal necklace set featuring premium ruby and blush-pink hydro stones with brilliant 5A CZ detailing. set in gold micron-plated brass for a luminous finish.",
+    "image": "assets/product-25.jpg",
+    "size": null,
+    "page": 25
+  },
+  {
+    "id": "maezy-26",
+    "name": "Bijou Set",
+    "price": 2800,
+    "category": "Necklace sets",
+    "description": "Delicate necklace set featuring blush-pink premium hydro stones framed with brilliant 5A CZ diamonds. set in rhodium- plated brass for a luminous finish.",
+    "image": "assets/product-26.jpg",
+    "size": null,
+    "page": 26
+  },
+  {
+    "id": "maezy-27",
+    "name": "Aurevia Set",
+    "price": 3800,
+    "category": "Necklace sets",
+    "description": "Necklace and earring set featuring premium topaz hydro stones with 5A CZ emerald and diamond detailing, set in gold micron-plated brass.",
+    "image": "assets/product-27.jpg",
+    "size": null,
+    "page": 27
+  },
+  {
+    "id": "maezy-28",
+    "name": "Solara Set",
+    "price": 4800,
+    "category": "Necklace sets",
+    "description": "An ornate necklace set featuring warm orange topaz 5A CZ stones and 5A CZ diamonds. set in gold micron-plated brass for a rich, luminous finish.",
+    "image": "assets/product-28.jpg",
+    "size": null,
+    "page": 28
+  },
+  {
+    "id": "maezy-29",
+    "name": "Diana Bracelet",
+    "price": 5200,
+    "category": "Bracelets",
+    "description": "Art deco-inspired bracelet featuring geometric and pear- cut 5A CZ diamonds, set in rhodium-plated brass for a brilliant finish.",
+    "image": "assets/product-29.jpg",
+    "size": null,
+    "page": 29
+  },
+  {
+    "id": "maezy-30",
+    "name": "Rosamund Bracelet",
+    "price": 3500,
+    "category": "Bracelets",
+    "description": "Ruby-toned bracelet featuring premium hydro stones framed by 5A CZ diamonds in pear and marquise cuts. set in rhodium- plated brass for a brilliant finish.",
+    "image": "assets/product-30.jpg",
+    "size": null,
+    "page": 30
+  },
+  {
+    "id": "maezy-31",
+    "name": "Asteria Bracelet — Emerald",
+    "price": 4200,
+    "category": "Bracelets",
+    "description": "An opulent emerald and diamond 5A CZ bracelet, intricately set in rhodium- plated brass for a brilliant, high-shine finish.",
+    "image": "assets/product-31.jpg",
+    "size": null,
+    "page": 31
+  },
+  {
+    "id": "maezy-32",
+    "name": "Asteria Bracelet — Lavender",
+    "price": 4200,
+    "category": "Bracelets",
+    "description": "An opulent lavender and diamond 5A CZ bracelet, intricately set in rhodium- plated brass for a brilliant, high-shine finish.",
+    "image": "assets/product-32.jpg",
+    "size": null,
+    "page": 32
+  },
+  {
+    "id": "maezy-33",
+    "name": "Calypso Bracelet",
+    "price": 3100,
+    "category": "Bracelets",
+    "description": "Sculptural bracelet featuring champagne-toned and clear 5A CZ diamond stones, set in rhodium-plated brass for a brilliant finish.",
+    "image": "assets/product-33.jpg",
+    "size": null,
+    "page": 33
+  },
+  {
+    "id": "maezy-34",
+    "name": "Rosamere Bracelet",
+    "price": 2900,
+    "category": "Bracelets",
+    "description": "Luminous pearl centres framed by premium hydro ruby stones and brilliant 5A CZ diamonds, set in rhodium-plated brass.",
+    "image": "assets/product-34.jpg",
+    "size": null,
+    "page": 34
+  },
+  {
+    "id": "maezy-35",
+    "name": "Elowen Bracelet",
+    "price": 2600,
+    "category": "Bracelets",
+    "description": "An intricate rhodium-plated brass bracelet set with brilliant 5A CZ diamonds and delicate lavender hydro stones.",
+    "image": "assets/product-35.jpg",
+    "size": null,
+    "page": 35
+  },
+  {
+    "id": "maezy-36",
+    "name": "Belvedere Ring",
+    "price": 2800,
+    "category": "Rings",
+    "description": "A vivid emerald doublet framed by brilliant synthetic moissanite stones, set in rhodium-plated brass.",
+    "image": "assets/product-36.jpg",
+    "size": "11+ (adjustable)",
+    "page": 36
+  },
+  {
+    "id": "maezy-37",
+    "name": "Luna Ring",
+    "price": 1600,
+    "category": "Rings",
+    "description": "A lavender hydro stone framed by brilliant 5A CZ diamonds in an ornate floral setting, finished in rhodium-plated brass.",
+    "image": "assets/product-37.jpg",
+    "size": "Adjustable",
+    "page": 37
+  }
+]
