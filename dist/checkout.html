@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Checkout — Maezy Jewels</title>
+  <meta name="description" content="Secure luxury checkout for Maezy Jewels. 256-bit encrypted insured payment and express delivery.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:var(--bg-primary);">
+
+  <!-- Distraction-Free Luxury Checkout Header -->
+  <header class="checkout-header-bar">
+    <div class="container checkout-header-container">
+      <div>
+        <a href="collection.html" class="link-luxury" style="font-size:10px;">
+          ← RETURN TO BOUTIQUE
+        </a>
+      </div>
+
+      <div class="brand-logo-wrap">
+        <a href="index.html" class="brand-logo">
+          <img src="assets/maezy-logo.png" alt="Maezy Jewels" style="height:36px;">
+        </a>
+      </div>
+
+      <div class="secure-badge">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        <span>256-BIT SSL ENCRYPTED</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="checkout-main-grid">
+        
+        <!-- Left Column: Checkout Form Steps -->
+        <div class="checkout-steps-column">
+
+          <!-- Step 1: Customer Contact & Shipping Details -->
+          <section class="checkout-step-card">
+            <div class="step-header">
+              <span class="step-num-badge">1</span>
+              <h3>Contact & Delivery Address</h3>
+            </div>
+
+            <form id="checkout-form" onsubmit="event.preventDefault(); processCheckout();">
+              <div class="form-group">
+                <label for="cust-email">Email Address (for order tracking)</label>
+                <input type="email" id="cust-email" class="form-input" placeholder="name@example.com" required value="patron@maezyjewels.com">
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="cust-fname">First Name</label>
+                  <input type="text" id="cust-fname" class="form-input" placeholder="First Name" required value="Zahabiya">
+                </div>
+                <div class="form-group">
+                  <label for="cust-lname">Last Name</label>
+                  <input type="text" id="cust-lname" class="form-input" placeholder="Last Name" required value="Merchant">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="cust-address">Street Address / Apartment Suite</label>
+                <input type="text" id="cust-address" class="form-input" placeholder="Flat 402, Royal Palms, Altamount Road" required value="Villa 14, Magnolia Gardens, Altamount Road">
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="cust-city">City</label>
+                  <input type="text" id="cust-city" class="form-input" placeholder="City" required value="Mumbai">
+                </div>
+                <div class="form-group">
+                  <label for="cust-state">State / Province</label>
+                  <input type="text" id="cust-state" class="form-input" placeholder="State" required value="Maharashtra">
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="cust-pincode">PIN / Postal Code</label>
+                  <input type="text" id="cust-pincode" class="form-input" placeholder="400026" required value="400026">
+                </div>
+                <div class="form-group">
+                  <label for="cust-country">Country</label>
+                  <select id="cust-country" class="form-select">
+                    <option value="India">India</option>
+                    <option value="United States">United States</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Singapore">Singapore</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="cust-phone">Phone Number (for Courier SMS & WhatsApp updates)</label>
+                <input type="tel" id="cust-phone" class="form-input" placeholder="+91 98200 12345" required value="+91 98200 98765">
+              </div>
+
+              <!-- Luxury Gift Option -->
+              <div style="background:var(--rose-subtle); border-radius:var(--radius-sm); padding:16px 20px; margin-top:10px;">
+                <label style="display:flex; align-items:center; gap:10px; cursor:pointer; font-weight:600; font-size:12px; color:var(--rose-primary);">
+                  <input type="checkbox" id="gift-wrap-toggle" onchange="toggleGiftCardInput(this.checked)" style="accent-color:var(--rose-primary); width:16px; height:16px;">
+                  <span>Include Complimentary Handwritten Calligraphy Gift Card & Satin Ribbon Wrap</span>
+                </label>
+                <div id="gift-card-field" style="display:none; margin-top:12px;">
+                  <textarea id="gift-message" class="form-textarea" rows="2" placeholder="Write your personalized gift message here..."></textarea>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <!-- Step 2: Shipping Method Selection -->
+          <section class="checkout-step-card">
+            <div class="step-header">
+              <span class="step-num-badge">2</span>
+              <h3>Shipping & White-Glove Courier</h3>
+            </div>
+
+            <div class="shipping-methods-wrap">
+              <div class="shipping-method-card selected" onclick="selectShipping('standard', this)">
+                <div class="shipping-method-left">
+                  <input type="radio" name="shipping-option" checked style="accent-color:var(--rose-primary);">
+                  <div>
+                    <div class="shipping-method-title">Standard Insured Air Courier</div>
+                    <div class="shipping-method-desc">Tamper-proof security bag · 5 to 7 Business Days</div>
+                  </div>
+                </div>
+                <div class="shipping-price-tag">COMPLIMENTARY</div>
+              </div>
+
+              <div class="shipping-method-card" onclick="selectShipping('express', this)">
+                <div class="shipping-method-left">
+                  <input type="radio" name="shipping-option" style="accent-color:var(--rose-primary);">
+                  <div>
+                    <div class="shipping-method-title">Priority White-Glove Express</div>
+                    <div class="shipping-method-desc">Dedicated expedited transit · 2 to 3 Business Days</div>
+                  </div>
+                </div>
+                <div class="shipping-price-tag" id="express-shipping-price-display">₹250</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Step 3: Payment Method -->
+          <section class="checkout-step-card">
+            <div class="step-header">
+              <span class="step-num-badge">3</span>
+              <h3>Payment Method</h3>
+            </div>
+
+            <!-- Payment Method Tabs -->
+            <div class="payment-tabs">
+              <button class="payment-tab-btn active" onclick="switchPaymentTab('upi', this)">UPI / QR / NETBANKING</button>
+              <button class="payment-tab-btn" onclick="switchPaymentTab('card', this)">CREDIT / DEBIT CARD</button>
+              <button class="payment-tab-btn" onclick="switchPaymentTab('cod', this)">CASH ON DELIVERY</button>
+            </div>
+
+            <!-- Tab Content: UPI -->
+            <div id="payment-panel-upi" class="payment-tab-content">
+              <div style="background:var(--bg-subtle); padding:20px; border-radius:var(--radius-sm); margin-bottom:16px;">
+                <p style="font-size:13px; font-weight:600; margin-bottom:10px;">Select your preferred UPI provider:</p>
+                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;">
+                  <button type="button" class="payment-chip" style="cursor:pointer;" onclick="selectUpiApp('Google Pay')">Google Pay</button>
+                  <button type="button" class="payment-chip" style="cursor:pointer;" onclick="selectUpiApp('PhonePe')">PhonePe</button>
+                  <button type="button" class="payment-chip" style="cursor:pointer;" onclick="selectUpiApp('Paytm')">Paytm</button>
+                  <button type="button" class="payment-chip" style="cursor:pointer;" onclick="selectUpiApp('BHIM')">BHIM UPI</button>
+                </div>
+                <div class="form-group" style="margin-bottom:0;">
+                  <label for="upi-id-input">Or Enter UPI ID / VPA</label>
+                  <input type="text" id="upi-id-input" class="form-input" placeholder="username@okhdfcbank" value="zahabiya@okhdfcbank">
+                </div>
+              </div>
+              <p style="font-size:11px; color:var(--text-muted);">
+                A secure payment request will be sent to your UPI application upon completing your order.
+              </p>
+            </div>
+
+            <!-- Tab Content: Credit/Debit Card with Live Interactive Visual Card -->
+            <div id="payment-panel-card" class="payment-tab-content" style="display:none;">
+              <!-- Interactive Live Card Preview -->
+              <div class="interactive-card-preview">
+                <div class="card-chip"></div>
+                <div class="card-number-display" id="card-preview-number">•••• •••• •••• 4242</div>
+                <div class="card-meta-row">
+                  <div>
+                    <span style="display:block; font-size:9px; opacity:0.7;">CARDHOLDER</span>
+                    <span id="card-preview-name">ZAHABIYA MERCHANT</span>
+                  </div>
+                  <div>
+                    <span style="display:block; font-size:9px; opacity:0.7;">EXPIRES</span>
+                    <span id="card-preview-expiry">12/28</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Card Number</label>
+                <input type="text" class="form-input" placeholder="4242 •••• •••• 4242" maxlength="19" oninput="formatCardNumber(this)">
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label>Expiry Date</label>
+                  <input type="text" class="form-input" placeholder="MM/YY" maxlength="5" oninput="formatCardExpiry(this)">
+                </div>
+                <div class="form-group">
+                  <label>CVV / CVC</label>
+                  <input type="password" class="form-input" placeholder="•••" maxlength="4">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Name on Card</label>
+                <input type="text" class="form-input" placeholder="Name on Card" oninput="document.getElementById('card-preview-name').textContent = this.value.toUpperCase() || 'YOUR NAME'">
+              </div>
+            </div>
+
+            <!-- Tab Content: Cash on Delivery -->
+            <div id="payment-panel-cod" class="payment-tab-content" style="display:none;">
+              <div style="background:var(--bg-subtle); padding:20px; border-radius:var(--radius-sm);">
+                <h4 style="font-size:15px; margin-bottom:8px;">Cash on Delivery Available</h4>
+                <p style="font-size:12px; color:var(--text-secondary); line-height:1.6; margin-bottom:12px;">
+                  You can pay via Cash or UPI QR Code directly to the delivery executive upon receiving your sealed tamper-evident package.
+                </p>
+                <span class="verified-buyer-tag" style="background:#E8F5E9; color:#2E7D32;">✓ No Advance Payment Required</span>
+              </div>
+            </div>
+
+            <!-- Final Checkout Submission Button -->
+            <div style="margin-top:30px;">
+              <button type="button" class="btn btn-primary btn-full" style="padding:20px; font-size:12px;" onclick="processCheckout()">
+                PLACE INSURED ORDER · <span id="checkout-cta-price">₹0</span> 🔒
+              </button>
+              <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:14px; font-size:11px; color:var(--text-muted);">
+                <span>🔒 256-Bit SSL Encryption</span>
+                <span>•</span>
+                <span>100% Insured Transit</span>
+                <span>•</span>
+                <span>Pre-Launch Care Guarantee</span>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+
+        <!-- Right Column: Sticky Live Order Summary -->
+        <div class="checkout-summary-column">
+          <aside class="order-summary-box">
+            <h3>Order Summary (<span id="summary-items-count">0</span>)</h3>
+
+            <!-- Scrollable list of items -->
+            <div class="summary-items-scroll" id="checkout-summary-items">
+              <!-- Dynamically populated -->
+            </div>
+
+            <!-- Promo Code Application -->
+            <div style="margin:20px 0;">
+              <label style="display:block; font-size:11px; letter-spacing:1px; text-transform:uppercase; font-weight:700; margin-bottom:8px;">
+                Pre-Launch Privilege Code
+              </label>
+              <div class="promo-apply-row">
+                <input type="text" id="checkout-promo-input" placeholder="MAEZYVIP" style="text-transform:uppercase;">
+                <button class="btn btn-outline btn-sm" onclick="applyCheckoutPromo()">APPLY</button>
+              </div>
+
+              <!-- Quick Promo Suggestions -->
+              <div class="promo-pill-suggestions">
+                <span class="promo-pill" onclick="quickApplyCode('MAEZYVIP')">MAEZYVIP (10% OFF)</span>
+                <span class="promo-pill" onclick="quickApplyCode('FIRST10')">FIRST10</span>
+              </div>
+
+              <div id="checkout-discount-badge" style="display:none; color:#2E7D32; font-size:11px; font-weight:700; margin-top:6px;">
+                <!-- Discount pill -->
+              </div>
+            </div>
+
+            <!-- Totals Breakdown -->
+            <div class="cart-totals-breakdown">
+              <div class="totals-row">
+                <span>Catalogue Subtotal</span>
+                <span id="summary-subtotal">₹0</span>
+              </div>
+              <div class="totals-row" id="summary-discount-row" style="display:none; color:#2E7D32; font-weight:600;">
+                <span id="summary-discount-label">Pre-Launch Discount</span>
+                <span id="summary-discount-amount">-₹0</span>
+              </div>
+              <div class="totals-row">
+                <span>Insured White-Glove Transit</span>
+                <span id="summary-shipping">COMPLIMENTARY</span>
+              </div>
+              <div class="totals-row">
+                <span>Signature Keepsake Box & Pouch</span>
+                <span style="color:#2E7D32;">COMPLIMENTARY</span>
+              </div>
+              <div class="totals-row">
+                <span>GST & Duties</span>
+                <span>INCLUDED IN MRP</span>
+              </div>
+              <div class="totals-row final-total">
+                <span>Grand Total</span>
+                <span id="summary-final-total">₹0</span>
+              </div>
+            </div>
+
+            <div style="padding:14px; background:var(--bg-primary); border-radius:var(--radius-sm); font-size:11px; color:var(--text-secondary); line-height:1.6; margin-top:16px;">
+              <strong>Pre-Launch Guarantee:</strong> All orders are individually prepared and inspected by our gemological team. Dispatch notifications and live courier links will be dispatched via SMS & WhatsApp.
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- LUXURIOUS ORDER CONFIRMATION RECEIPT MODAL -->
+  <div id="order-confirmation-modal" class="order-success-backdrop">
+    <div class="order-receipt-card">
+      <div class="seal-icon-box">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </div>
+      
+      <span class="eyebrow" style="color:var(--rose-primary);">RESERVATION CONFIRMED</span>
+      <h2>Thank You For Your Order</h2>
+      <p style="color:var(--text-secondary); font-size:14px; margin-bottom:14px;">
+        Your pre-launch pieces have been reserved and entered into our artisanal fulfillment queue.
+      </p>
+
+      <div class="order-ref-badge" id="receipt-order-id">
+        ORDER #MZ-89241
+      </div>
+
+      <div class="receipt-timeline">
+        <h5>Order Milestones & Transit</h5>
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div><strong>Order Confirmed:</strong> Receipt dispatched to <span id="receipt-email">patron@maezyjewels.com</span></div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div><strong>Artisan Inspection & Packaging:</strong> Prepared in signature blush box with velvet pouch</div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div><strong>Air Express Dispatch:</strong> Estimated delivery in 5–7 business days to <span id="receipt-destination">Mumbai</span></div>
+        </div>
+      </div>
+
+      <div style="margin:24px 0; padding:16px; background:var(--bg-subtle); border-radius:var(--radius-sm); font-size:12px; display:flex; justify-content:space-between; align-items:center;">
+        <span>Total Paid / Payable:</span>
+        <strong id="receipt-total-paid" style="font-size:16px; color:var(--rose-primary);">₹0</strong>
+      </div>
+
+      <div style="display:flex; gap:12px;">
+        <a href="index.html" class="btn btn-primary btn-full">CONTINUE EXPLORING ↗</a>
+        <button class="btn btn-outline" onclick="window.print()">PRINT RECEIPT</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="maezy-core.js"></script>
+
+  <script>
+    let shippingFeeINR = 0;
+
+    function renderCheckoutSummary() {
+      const itemsContainer = document.getElementById('checkout-summary-items');
+      const countEl = document.getElementById('summary-items-count');
+      if (!itemsContainer || !window.MaezyApp.products.length) return;
+
+      let cartEntries = Object.entries(window.MaezyApp.cart);
+
+      // If bag is empty, auto-add the flagship Alexandria Set or Celestine Danglers so the user can test immediately!
+      if (cartEntries.length === 0) {
+        window.MaezyApp.cart['maezy-22'] = { qty: 1, size: null };
+        window.MaezyApp.saveCart();
+        cartEntries = Object.entries(window.MaezyApp.cart);
+      }
+
+      countEl.textContent = window.MaezyApp.getCartCount();
+
+      // Render summary items
+      itemsContainer.innerHTML = cartEntries.map(([id, item]) => {
+        const p = window.MaezyApp.products.find(prod => prod.id === id);
+        if (!p) return '';
+        return `
+          <div class="summary-item-row">
+            <div class="summary-item-img">
+              <img src="${p.image}" alt="${p.name}">
+            </div>
+            <div class="summary-item-info">
+              <h5>${p.name}</h5>
+              <p>${p.category} ${item.size ? `· ${item.size}` : ''} · Qty: ${item.qty}</p>
+            </div>
+            <div class="summary-item-price">
+              ${window.MaezyApp.formatMoney(p.price * item.qty)}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Calculations
+      const subtotalINR = window.MaezyApp.getCartSubtotalINR();
+      const discountINR = window.MaezyApp.getCartDiscountAmountINR();
+      const finalINR = window.MaezyApp.getCartFinalTotalINR() + shippingFeeINR;
+
+      document.getElementById('summary-subtotal').textContent = window.MaezyApp.formatMoney(subtotalINR);
+
+      const discountRow = document.getElementById('summary-discount-row');
+      const discountBadge = document.getElementById('checkout-discount-badge');
+      if (window.MaezyApp.discount) {
+        discountRow.style.display = 'flex';
+        document.getElementById('summary-discount-label').textContent = `${window.MaezyApp.discount.label} (-${window.MaezyApp.discount.percent}%)`;
+        document.getElementById('summary-discount-amount').textContent = `-${window.MaezyApp.formatMoney(discountINR)}`;
+        
+        discountBadge.style.display = 'block';
+        discountBadge.innerHTML = `✓ Applied ${window.MaezyApp.discount.code} · ${window.MaezyApp.discount.label} <button onclick="window.MaezyApp.removeDiscount(); renderCheckoutSummary();" style="color:var(--rose-primary); margin-left:8px; text-decoration:underline;">Remove</button>`;
+      } else {
+        discountRow.style.display = 'none';
+        discountBadge.style.display = 'none';
+      }
+
+      document.getElementById('summary-shipping').textContent = shippingFeeINR === 0 ? 'COMPLIMENTARY' : window.MaezyApp.formatMoney(shippingFeeINR);
+      document.getElementById('summary-final-total').textContent = window.MaezyApp.formatMoney(finalINR);
+      document.getElementById('checkout-cta-price').textContent = window.MaezyApp.formatMoney(finalINR);
+    }
+
+    function toggleGiftCardInput(checked) {
+      document.getElementById('gift-card-field').style.display = checked ? 'block' : 'none';
+    }
+
+    function selectShipping(type, element) {
+      document.querySelectorAll('.shipping-method-card').forEach(c => c.classList.remove('selected'));
+      element.classList.add('selected');
+      element.querySelector('input[type="radio"]').checked = true;
+
+      if (type === 'express') {
+        shippingFeeINR = 250;
+      } else {
+        shippingFeeINR = 0;
+      }
+      renderCheckoutSummary();
+    }
+
+    function switchPaymentTab(tab, btn) {
+      document.querySelectorAll('.payment-tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      document.getElementById('payment-panel-upi').style.display = tab === 'upi' ? 'block' : 'none';
+      document.getElementById('payment-panel-card').style.display = tab === 'card' ? 'block' : 'none';
+      document.getElementById('payment-panel-cod').style.display = tab === 'cod' ? 'block' : 'none';
+    }
+
+    function selectUpiApp(appName) {
+      const input = document.getElementById('upi-id-input');
+      input.value = `patron@${appName.toLowerCase().replace(/\s+/g,'')}`;
+      window.MaezyApp.showToast(`Selected ${appName} for Instant UPI Checkout`);
+    }
+
+    function formatCardNumber(input) {
+      let v = input.value.replace(/\D/g, '').slice(0, 16);
+      v = v.replace(/(.{4})/g, '$1 ').trim();
+      input.value = v;
+      document.getElementById('card-preview-number').textContent = v || '•••• •••• •••• 4242';
+    }
+
+    function formatCardExpiry(input) {
+      let v = input.value.replace(/\D/g, '').slice(0, 4);
+      if (v.length > 2) v = v.slice(0, 2) + '/' + v.slice(2);
+      input.value = v;
+      document.getElementById('card-preview-expiry').textContent = v || '12/28';
+    }
+
+    function applyCheckoutPromo() {
+      const code = document.getElementById('checkout-promo-input').value;
+      if (window.MaezyApp.applyPromoCode(code)) {
+        renderCheckoutSummary();
+      }
+    }
+
+    function quickApplyCode(code) {
+      document.getElementById('checkout-promo-input').value = code;
+      if (window.MaezyApp.applyPromoCode(code)) {
+        renderCheckoutSummary();
+      }
+    }
+
+    function processCheckout() {
+      const fname = document.getElementById('cust-fname').value || 'Valued Patron';
+      const email = document.getElementById('cust-email').value || 'patron@maezyjewels.com';
+      const city = document.getElementById('cust-city').value || 'Mumbai';
+
+      const orderNumber = '#MZ-' + Math.floor(10000 + Math.random() * 90000);
+      const totalAmount = document.getElementById('summary-final-total').textContent;
+
+      document.getElementById('receipt-order-id').textContent = `ORDER ${orderNumber}`;
+      document.getElementById('receipt-email').textContent = email;
+      document.getElementById('receipt-destination').textContent = city;
+      document.getElementById('receipt-total-paid').textContent = totalAmount;
+
+      // Show luxury confirmation modal
+      document.getElementById('order-confirmation-modal').classList.add('active');
+
+      // Clear cart
+      window.MaezyApp.cart = {};
+      window.MaezyApp.saveCart();
+    }
+
+    window.addEventListener('maezy:ready', renderCheckoutSummary);
+    window.addEventListener('maezy:currencyChange', renderCheckoutSummary);
+  </script>
+
+</body>
+</html>

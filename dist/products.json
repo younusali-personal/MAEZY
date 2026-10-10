@@ -7,7 +7,14 @@
     "description": "Chandelier earrings featuring aqua-green and clear 5A CZ stones with floral clusters and pavé detailing, set in rhodium-plated brass.",
     "image": "assets/product-02.jpg",
     "size": null,
-    "page": 2
+    "page": 2,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 14,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeT_Bv5R9BT/"
   },
   {
     "id": "maezy-03",
@@ -17,7 +24,14 @@
     "description": "Statement earrings featuring diamonds, purple and ruby-pink 5A CZ stones with clear crystal detailing and cascading drops, set in rhodium-plated brass.",
     "image": "assets/product-03.jpg",
     "size": null,
-    "page": 3
+    "page": 3,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 17,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DePD09etbsu/"
   },
   {
     "id": "maezy-04",
@@ -27,7 +41,14 @@
     "description": "Statement earrings featuring diamonds, purple and ruby-pink 5A CZ stones with clear crystal detailing and cascading drops, set in rhodium-plated brass.",
     "image": "assets/product-04.jpg",
     "size": null,
-    "page": 4
+    "page": 4,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 20,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/p/DeO1LvCtK8C/"
   },
   {
     "id": "maezy-05",
@@ -37,7 +58,14 @@
     "description": "Statement earrings featuring orange sapphire hydro gemstones, 5A CZ diamonds and pearl drops, set in brass with gold micron plating.",
     "image": "assets/product-05.jpg",
     "size": null,
-    "page": 5
+    "page": 5,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 23,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeBt-dwRFhs/"
   },
   {
     "id": "maezy-06",
@@ -47,7 +75,14 @@
     "description": "Statement earrings featuring purple and ruby-toned 5A CZ stones with 5A CZ diamond detailing, set in rhodium- plated brass.",
     "image": "assets/product-06.jpg",
     "size": null,
-    "page": 6
+    "page": 6,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 26,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd5tMC1RkIj/"
   },
   {
     "id": "maezy-07",
@@ -57,7 +92,14 @@
     "description": "Chandelier earrings featuring emerald-green and orange sapphire premium hydro crystals with pearl and mint drops, set in gold micron- plated brass.",
     "image": "assets/product-07.jpg",
     "size": null,
-    "page": 7
+    "page": 7,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 29,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd3wzF5t0O8/"
   },
   {
     "id": "maezy-08",
@@ -67,7 +109,14 @@
     "description": "Statement earrings featuring emerald-green premium hydro crystals with CZ diamond detailing, set in rhodium- plated brass.",
     "image": "assets/product-08.jpg",
     "size": null,
-    "page": 8
+    "page": 8,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 32,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeT_Bv5R9BT/"
   },
   {
     "id": "maezy-09",
@@ -77,7 +126,14 @@
     "description": "Floral drop earrings featuring premium ruby and emerald hydro stones, 5A CZ diamonds and pearl drops, set in gold micron-plated brass.",
     "image": "assets/product-09.jpg",
     "size": null,
-    "page": 9
+    "page": 9,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 35,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DePD09etbsu/"
   },
   {
     "id": "maezy-10",
@@ -87,7 +143,14 @@
     "description": "Statement earrings featuring multicoloured premium hydro crystals with 5A CZ diamond detailing, set in gold micron- plated brass.",
     "image": "assets/product-10.jpg",
     "size": null,
-    "page": 10
+    "page": 10,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 38,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/p/DeO1LvCtK8C/"
   },
   {
     "id": "maezy-11",
@@ -97,7 +160,14 @@
     "description": "Nocturnal earrings featuring premium blue sapphire hydro stones, 5A CZ diamonds and pearl drops, set in rhodium- plated brass.",
     "image": "assets/product-11.jpg",
     "size": null,
-    "page": 11
+    "page": 11,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 41,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeBt-dwRFhs/"
   },
   {
     "id": "maezy-12",
@@ -107,7 +177,14 @@
     "description": "Ethereal studs featuring lavender 5A CZ stones with clear pavé detailing in a paisley-inspired design, set in rhodium-plated brass.",
     "image": "assets/product-12.jpg",
     "size": null,
-    "page": 12
+    "page": 12,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 15,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd5tMC1RkIj/"
   },
   {
     "id": "maezy-13",
@@ -117,7 +194,14 @@
     "description": "Elegant drop earrings featuring premium lavender hydro, clear CZ detailing and pearl drops, set in rhodium- plated brass.",
     "image": "assets/product-13.jpg",
     "size": null,
-    "page": 13
+    "page": 13,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 18,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd3wzF5t0O8/"
   },
   {
     "id": "maezy-14",
@@ -127,7 +211,14 @@
     "description": "Statement studs featuring premium blue sapphire hydro stone with 5A CZ diamond detailing, set in rhodium- plated brass.",
     "image": "assets/product-14.jpg",
     "size": null,
-    "page": 14
+    "page": 14,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Hydro Sapphire & 5A CZ Crystals",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 21,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeT_Bv5R9BT/"
   },
   {
     "id": "maezy-15",
@@ -137,7 +228,14 @@
     "description": "Enduring studs featuring premium emerald hydro stones with 5A CZ diamond detailing, set in rhodium-plated brass.",
     "image": "assets/product-15.jpg",
     "size": null,
-    "page": 15
+    "page": 15,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 24,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DePD09etbsu/"
   },
   {
     "id": "maezy-16",
@@ -147,7 +245,14 @@
     "description": "Ornate drop earrings featuring synthetic moissanites with a pink sapphire CZ teardrop, set in a brilliant rhodium finish.",
     "image": "assets/product-16.jpg",
     "size": null,
-    "page": 16
+    "page": 16,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Hydro Sapphire & 5A CZ Crystals",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 27,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/p/DeO1LvCtK8C/"
   },
   {
     "id": "maezy-17",
@@ -157,7 +262,14 @@
     "description": "Crystal drop earrings featuring lavender premium hydro stone with lavender and clear 5A CZ detailing, set in rhodium-plated brass.",
     "image": "assets/product-17.jpg",
     "size": null,
-    "page": 17
+    "page": 17,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 30,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeBt-dwRFhs/"
   },
   {
     "id": "maezy-18",
@@ -167,7 +279,14 @@
     "description": "Floral studs featuring emerald and clear CZ diamonds, set in rhodium-plated brass.",
     "image": "assets/product-18.jpg",
     "size": null,
-    "page": 18
+    "page": 18,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 33,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd5tMC1RkIj/"
   },
   {
     "id": "maezy-19",
@@ -177,7 +296,14 @@
     "description": "Statement earrings featuring rich emerald-green and fuchsia hydro stones, accented with brilliant 5A CZ diamonds and finished in gold micron-plated brass.",
     "image": "assets/product-19.jpg",
     "size": null,
-    "page": 19
+    "page": 19,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 36,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd3wzF5t0O8/"
   },
   {
     "id": "maezy-20",
@@ -187,7 +313,14 @@
     "description": "Made with champagne topaz hydro stones and brilliant 5A CZ diamonds, finished in rhodium-plated brass.",
     "image": "assets/product-20.jpg",
     "size": null,
-    "page": 20
+    "page": 20,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 39,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeT_Bv5R9BT/"
   },
   {
     "id": "maezy-21",
@@ -197,7 +330,14 @@
     "description": "Vivid emerald hydro stones and brilliant 5A CZ diamonds in a sweeping, vine-like silhouette, finished in rhodium-plated brass.",
     "image": "assets/product-21.jpg",
     "size": null,
-    "page": 21
+    "page": 21,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 42,
+    "badge": "Bestseller",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DePD09etbsu/"
   },
   {
     "id": "maezy-22",
@@ -207,7 +347,14 @@
     "description": "Necklace and earring set featuring premium ruby hydro stones with 5A CZ diamond detailing, set in rhodium- plated brass.",
     "image": "assets/product-22.jpg",
     "size": null,
-    "page": 22
+    "page": 22,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 16,
+    "instagramReel": "https://www.instagram.com/maezyjewels/p/DeO1LvCtK8C/"
   },
   {
     "id": "maezy-23",
@@ -217,7 +364,14 @@
     "description": "Regal pearl set featuring premium blue sapphire hydro stones and brilliant 5A CZ diamonds. finished with pearl localites and gold micron-plated brass for a luminous finish.",
     "image": "assets/product-23.jpg",
     "size": null,
-    "page": 23
+    "page": 23,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 19,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeBt-dwRFhs/"
   },
   {
     "id": "maezy-24",
@@ -227,7 +381,14 @@
     "description": "Choker necklace and earring set featuring premium lavender hydro stones with 5A CZ diamond detailing, set in rhodium-plated brass.",
     "image": "assets/product-24.jpg",
     "size": null,
-    "page": 24
+    "page": 24,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 22,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd5tMC1RkIj/"
   },
   {
     "id": "maezy-25",
@@ -237,7 +398,14 @@
     "description": "Regal necklace set featuring premium ruby and blush-pink hydro stones with brilliant 5A CZ detailing. set in gold micron-plated brass for a luminous finish.",
     "image": "assets/product-25.jpg",
     "size": null,
-    "page": 25
+    "page": 25,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 25,
+    "badge": "Couture Suite",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd3wzF5t0O8/"
   },
   {
     "id": "maezy-26",
@@ -247,7 +415,14 @@
     "description": "Delicate necklace set featuring blush-pink premium hydro stones framed with brilliant 5A CZ diamonds. set in rhodium- plated brass for a luminous finish.",
     "image": "assets/product-26.jpg",
     "size": null,
-    "page": 26
+    "page": 26,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 28,
+    "badge": "Couture Suite",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeT_Bv5R9BT/"
   },
   {
     "id": "maezy-27",
@@ -257,7 +432,14 @@
     "description": "Necklace and earring set featuring premium topaz hydro stones with 5A CZ emerald and diamond detailing, set in gold micron-plated brass.",
     "image": "assets/product-27.jpg",
     "size": null,
-    "page": 27
+    "page": 27,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 31,
+    "badge": "Couture Suite",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DePD09etbsu/"
   },
   {
     "id": "maezy-28",
@@ -267,7 +449,14 @@
     "description": "An ornate necklace set featuring warm orange topaz 5A CZ stones and 5A CZ diamonds. set in gold micron-plated brass for a rich, luminous finish.",
     "image": "assets/product-28.jpg",
     "size": null,
-    "page": 28
+    "page": 28,
+    "plating": "18K Gold Micron Finish",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 34,
+    "badge": "Bestseller",
+    "instagramReel": "https://www.instagram.com/maezyjewels/p/DeO1LvCtK8C/"
   },
   {
     "id": "maezy-29",
@@ -277,7 +466,14 @@
     "description": "Art deco-inspired bracelet featuring geometric and pear- cut 5A CZ diamonds, set in rhodium-plated brass for a brilliant finish.",
     "image": "assets/product-29.jpg",
     "size": null,
-    "page": 29
+    "page": 29,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 37,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeBt-dwRFhs/"
   },
   {
     "id": "maezy-30",
@@ -287,7 +483,14 @@
     "description": "Ruby-toned bracelet featuring premium hydro stones framed by 5A CZ diamonds in pear and marquise cuts. set in rhodium- plated brass for a brilliant finish.",
     "image": "assets/product-30.jpg",
     "size": null,
-    "page": 30
+    "page": 30,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Ruby & Amethyst Hue 5A CZ",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 40,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd5tMC1RkIj/"
   },
   {
     "id": "maezy-31",
@@ -297,7 +500,14 @@
     "description": "An opulent emerald and diamond 5A CZ bracelet, intricately set in rhodium- plated brass for a brilliant, high-shine finish.",
     "image": "assets/product-31.jpg",
     "size": null,
-    "page": 31
+    "page": 31,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 14,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd3wzF5t0O8/"
   },
   {
     "id": "maezy-32",
@@ -307,7 +517,14 @@
     "description": "An opulent lavender and diamond 5A CZ bracelet, intricately set in rhodium- plated brass for a brilliant, high-shine finish.",
     "image": "assets/product-32.jpg",
     "size": null,
-    "page": 32
+    "page": 32,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 17,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeT_Bv5R9BT/"
   },
   {
     "id": "maezy-33",
@@ -317,7 +534,14 @@
     "description": "Sculptural bracelet featuring champagne-toned and clear 5A CZ diamond stones, set in rhodium-plated brass for a brilliant finish.",
     "image": "assets/product-33.jpg",
     "size": null,
-    "page": 33
+    "page": 33,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 4.8,
+    "reviewsCount": 20,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DePD09etbsu/"
   },
   {
     "id": "maezy-34",
@@ -327,7 +551,14 @@
     "description": "Luminous pearl centres framed by premium hydro ruby stones and brilliant 5A CZ diamonds, set in rhodium-plated brass.",
     "image": "assets/product-34.jpg",
     "size": null,
-    "page": 34
+    "page": 34,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "5A CZ & Luminous Shell Pearls",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 23,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/p/DeO1LvCtK8C/"
   },
   {
     "id": "maezy-35",
@@ -337,7 +568,14 @@
     "description": "An intricate rhodium-plated brass bracelet set with brilliant 5A CZ diamonds and delicate lavender hydro stones.",
     "image": "assets/product-35.jpg",
     "size": null,
-    "page": 35
+    "page": 35,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 26,
+    "badge": "Pre-Launch Drop",
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/DeBt-dwRFhs/"
   },
   {
     "id": "maezy-36",
@@ -347,7 +585,14 @@
     "description": "A vivid emerald doublet framed by brilliant synthetic moissanite stones, set in rhodium-plated brass.",
     "image": "assets/product-36.jpg",
     "size": "11+ (adjustable)",
-    "page": 36
+    "page": 36,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Emerald-Hue & Clear 5A CZ",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 29,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd5tMC1RkIj/"
   },
   {
     "id": "maezy-37",
@@ -357,6 +602,13 @@
     "description": "A lavender hydro stone framed by brilliant 5A CZ diamonds in an ornate floral setting, finished in rhodium-plated brass.",
     "image": "assets/product-37.jpg",
     "size": "Adjustable",
-    "page": 37
+    "page": 37,
+    "plating": "Hypoallergenic Rhodium Plating",
+    "stoneType": "Flawless 5A Cubic Zirconia",
+    "badge": "Featured",
+    "inStock": true,
+    "rating": 4.9,
+    "reviewsCount": 32,
+    "instagramReel": "https://www.instagram.com/maezyjewels/reel/Dd3wzF5t0O8/"
   }
 ]
